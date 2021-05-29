@@ -18,14 +18,24 @@ public class Weapon : MonoBehaviour
     [SerializeField] private int Force = 10;
     [SerializeField] private int Spread = 10;
 
+    public GameObject weapon;
+    public GameObject bullet;
+
+    private Vector2 direction;
     void Start()
     {
-        
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         
     }
+
+    public void Shoot()
+    {
+        GameObject bulletCopy = Instantiate(bullet, weapon.transform.position, weapon.transform.rotation);
+    }
+
+    
 }

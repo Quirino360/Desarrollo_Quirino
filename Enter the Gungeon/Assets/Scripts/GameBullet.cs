@@ -5,14 +5,11 @@ using UnityEngine;
 public class GameBullet : MonoBehaviour
 {
     [SerializeField] public int Damage = 1;
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
-    void Update()
+
+    public void MoveTo(Vector3 _direction)
     {
-        
+      
     }
 }
