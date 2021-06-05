@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4571804787295549993}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -175,9 +175,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84f0bceb91838ec4ea63e6515fb7e46a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlyrWeapon: {fileID: 5437172124580368802, guid: bdf334b75e777d5448ef4105724cf043, type: 3}
   speedMax: 10
   speed: 5
-  dashSpeed: 2.2
+  dashSpeed: 1.2
   invincible: 0
 --- !u!114 &4571804787295549993
 MonoBehaviour:
@@ -191,8 +192,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 052141ac75b62a147badf4d6c5c6a8db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerControl: {fileID: 4571804787295549992}
   health: 6
-  playerControl: {fileID: 0}
 --- !u!1 &4571804787564189827
 GameObject:
   m_ObjectHideFlags: 0

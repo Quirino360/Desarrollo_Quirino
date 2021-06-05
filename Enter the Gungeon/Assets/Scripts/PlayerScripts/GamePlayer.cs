@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class GamePlayer : MonoBehaviour
 {
-    [SerializeField] private int health = 6;
+    //Scripts I need
     public PlayerController playerControl;
+
+    [SerializeField] private int health = 6;
 
     // Start is called before the first frame update
     void Start()

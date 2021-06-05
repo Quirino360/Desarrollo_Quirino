@@ -5,12 +5,15 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    //Scripts that I need
     private PlayerInputActions playerInput;
-    private Rigidbody2D rigidBody;
-
-    private GameObject player;
     public Weapon PlyrWeapon;
+
+
+    //Game Objects
+    private Rigidbody2D rigidBody;
     private Camera Plyrcamera;
+    private GameObject playerSprite;
 
     //Movement
     [SerializeField] private float speedMax = 10.0f;
@@ -19,12 +22,14 @@ public class PlayerController : MonoBehaviour
     //Dash
     [SerializeField] private float dashSpeed = 1.5f;
     public bool invincible = false;
-    bool canMove = true;
-    bool canDash = true;
-    float dashCooldown = 0.0f;
-    float dashCooldownMax = 0.8f;
+    private bool canMove = true;
+    private bool canDash = true;
+    private bool canShoot = true;
+    private float dashCooldown = 0.0f;
+    private float dashCooldownMax = 0.8f;
 
     //Shoot
+
 
     //Mouse position 
     float angle = 0;
@@ -34,19 +39,18 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-       
+       //scripts
         playerInput = new PlayerInputActions();
+
+        //Game Objects
         rigidBody = GetComponent<Rigidbody2D>();
         Plyrcamera = GetComponentInChildren<Camera>();
-        
+        playerSprite = transform.Find("PlayerSprite").gameObject;
     }
 
     private void Start()
     {
         speed = speedMax;
-        player = transform.Find("PlayerSprite").gameObject;
-        
-
     }
 
     private void OnEnable()
@@ -65,38 +69,53 @@ public class PlayerController : MonoBehaviour
         Vector3 aux = new Vector3(Input.mousePosition.x, Input.mousePosition.y, 0);
         mousePos = Plyrcamera.ScreenToWorldPoint(aux);
 
+
+        //check for dash cooldown and restart the variables
         if (dashCooldown > 0.0f)
         {
             dashCooldown -= Time.deltaTime;
         }
         else
         {
+
+            //set cooldown to use variables
             canMove = true;
             canDash = true;
+            canShoot = true;
+
+            //set not insible 
             invincible = false;
             dashCooldown = 0.0f;
         }
+
+        //Debug.Log(PauseMenu.isPaused);
     }
     private void FixedUpdate()
     {
         Move();
 
+
+        // ------------------------- Rotate Weapon ------------------------- //
         Vector3 lastDirection =  directionVector;
         directionVector = new Vector3(mousePos.x - rigidBody.position.x, mousePos.y - rigidBody.position.y, 0);
         directionVector.Normalize();
-        if (directionVector !=  lastDirection)
+        //check if the direction has changed
+        if (directionVector !=  lastDirection) 
         {
             angle = Mathf.Atan2(directionVector.y, directionVector.x) * 180.0f / Mathf.PI; //get the angle and make it degrees
-            PlyrWeapon.weapon.transform.eulerAngles = new Vector3(PlyrWeapon.weapon.transform.eulerAngles.x, PlyrWeapon.weapon.transform.eulerAngles.y, angle);
+            //PlyrWeapon.weapon.transform.eulerAngles = new Vector3(PlyrWeapon.weapon.transform.eulerAngles.x, PlyrWeapon.weapon.transform.eulerAngles.y, angle);
+            PlyrWeapon.ChangeWeaponRotation(directionVector, angle);
+            
         }
 
-        //Debug.Log(angle);
+        //Debug.Log(directionVector);
     }
 
     // ------------------------------ Inputs ------------------------------//
+    
     public void Move()
     {
-        if (true == canMove)
+        if (true == canMove && false == PauseMenu.isPaused)
         {
             Vector2 moveInput = playerInput.Movement.Move.ReadValue<Vector2>();
             rigidBody.velocity = moveInput * speed;
@@ -105,22 +124,31 @@ public class PlayerController : MonoBehaviour
     }
     public void Roll(InputAction.CallbackContext context)
     {
-        if (context.performed && canDash)
+        if (context.performed && true == canDash && false ==PauseMenu.isPaused)
         {
-            //Debug.Log("Dash");
-            dashCooldown = dashCooldownMax;
+            //dash speed
             Vector2 moveInput = playerInput.Movement.Move.ReadValue<Vector2>();
             rigidBody.velocity = moveInput * speed * dashSpeed ;
+
+            //set cooldown
+            dashCooldown = dashCooldownMax;
+
+            //set variables to stop doing it
             canDash = false;
             canMove = false;
+            canShoot = false;
+
+            //set invisible
             invincible = true;
+
+            //Debug.Log("Dash");
         }
     }
     public void Shoot(InputAction.CallbackContext context)
     {
-        if (context.performed)
+        if (context.performed && true == canShoot && false == PauseMenu.isPaused)
         {
-            PlyrWeapon.Shoot();
+            PlyrWeapon.Shoot(directionVector);
         }
         if (context.canceled)
         {
