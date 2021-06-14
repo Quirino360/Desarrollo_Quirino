@@ -23,12 +23,9 @@ public class GamePlayer : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Bullet" && playerControl.invincible == false)
+        if (collision.gameObject.tag == "Ball")
         {
-            GameBullet bullet = collision.gameObject.GetComponent<GameBullet>();
-            health -= bullet.Damage;
-            Debug.Log("health = " + health);
-            Destroy(bullet.gameObject);
+            Debug.Log("Hit = " + health);
         }
     }
 }

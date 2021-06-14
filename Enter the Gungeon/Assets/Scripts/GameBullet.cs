@@ -14,8 +14,7 @@ public class GameBullet : MonoBehaviour
     //Variables
     [SerializeField] public int Damage = 1;
     public Vector3 bulletDirection;
-
-
+    private float bulletBaseSpeed = 1.0f;
     private void Start()
     {
 
@@ -29,7 +28,8 @@ public class GameBullet : MonoBehaviour
 
     public void InstatiateBullet(Vector3 _position, Quaternion _rotation, Vector3 _bulletDir)
     {
-        bulletDirection =  _bulletDir;
+        _bulletDir.Normalize();
+        bulletDirection =  _bulletDir * bulletBaseSpeed;
         GameObject bulletCopy = Instantiate(bulletObj, _position, _rotation);
     }
 
