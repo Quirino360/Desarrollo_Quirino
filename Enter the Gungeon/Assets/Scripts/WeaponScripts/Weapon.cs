@@ -9,8 +9,9 @@ public class Weapon : MonoBehaviour
     public GameBullet bulletScript;
 
     //Game Objects
-    public GameObject weapon;
-    public GameObject weaponSpite;
+    public GameObject weaponObj;
+    public GameObject Muzzle;
+    private GameObject weaponSprite;
 
 
 
@@ -22,7 +23,7 @@ public class Weapon : MonoBehaviour
     [SerializeField] private int AmmoCapacity = 10;
     [SerializeField] private float Damage = 10.0f;
     [SerializeField] private float FireRate = 10.0f;
-    [SerializeField] private int shotSpeed = 10;
+    [SerializeField] private float shotSpeed = 10.0f;
     [SerializeField] private int Range = 10;
     [SerializeField] private int Force = 10;
     [SerializeField] private int Spread = 10;
@@ -32,8 +33,7 @@ public class Weapon : MonoBehaviour
 
     void Start()
     {
-        weapon = GameObject.Find("Weapon");
-        weaponSpite = GameObject.Find("WeaponSprite");
+        weaponSprite = GameObject.Find("WeaponSprite");
     }
 
     
@@ -44,16 +44,15 @@ public class Weapon : MonoBehaviour
 
     public void ChangeWeaponRotation(Vector3 _dir, float _angle)
     {
-        
         //Debug.Log(_dir.y);
         if(_dir.y <= 1.0f && _dir.y >= -1.0f)
         {
-            weapon.transform.eulerAngles = new Vector3(weapon.transform.eulerAngles.x, weapon.transform.eulerAngles.y, _angle);
+            weaponObj.transform.eulerAngles = new Vector3(weaponObj.transform.eulerAngles.x, weaponObj.transform.eulerAngles.y, _angle);
             //Debug.Log("Weapon is in Left");
         }
         else if (_dir.y > 1.0f && _dir.y < -1.0f)
         {
-            weapon.transform.eulerAngles = new Vector3(weapon.transform.eulerAngles.x, weapon.transform.eulerAngles.y, _angle);
+            weaponObj.transform.eulerAngles = new Vector3(weaponObj.transform.eulerAngles.x, weaponObj.transform.eulerAngles.y, _angle);
             //Debug.Log("Weapon is in Right");
         }
         /**/
@@ -61,7 +60,7 @@ public class Weapon : MonoBehaviour
 
     public void Shoot(Vector3 _dir)
     {
-        bulletScript.InstatiateBullet(weapon.transform.position, weapon.transform.rotation, _dir * shotSpeed);
+        bulletScript.InstatiateBullet(weaponSprite.transform.position, weaponObj.transform.rotation, _dir * shotSpeed );
     }
 
     

@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
 {
     //Scripts that I need
     private PlayerInputActions playerInput;
-    public Weapon PlyrWeapon;
+    public Weapon PlyrWeaponScript;
 
 
     //Game Objects
@@ -73,11 +73,14 @@ public class PlayerController : MonoBehaviour
         //check for dash cooldown and restart the variables
         if (dashCooldown > 0.0f)
         {
+            var CubeRenderer = playerSprite.GetComponent<Renderer>();
+            CubeRenderer.material.SetColor("_Color", Color.red);
             dashCooldown -= Time.deltaTime;
         }
         else
         {
-
+            var CubeRenderer = playerSprite.GetComponent<Renderer>();
+            CubeRenderer.material.SetColor("_Color", Color.white);
             //set cooldown to use variables
             canMove = true;
             canDash = true;
@@ -104,7 +107,7 @@ public class PlayerController : MonoBehaviour
         {
             angle = Mathf.Atan2(directionVector.y, directionVector.x) * 180.0f / Mathf.PI; //get the angle and make it degrees
             //PlyrWeapon.weapon.transform.eulerAngles = new Vector3(PlyrWeapon.weapon.transform.eulerAngles.x, PlyrWeapon.weapon.transform.eulerAngles.y, angle);
-            PlyrWeapon.ChangeWeaponRotation(directionVector, angle);
+            PlyrWeaponScript.ChangeWeaponRotation(directionVector, angle);
             
         }
 
@@ -148,7 +151,7 @@ public class PlayerController : MonoBehaviour
     {
         if (context.performed && true == canShoot && false == PauseMenu.isPaused)
         {
-            PlyrWeapon.Shoot(directionVector);
+            PlyrWeaponScript.Shoot(directionVector);
         }
         if (context.canceled)
         {
