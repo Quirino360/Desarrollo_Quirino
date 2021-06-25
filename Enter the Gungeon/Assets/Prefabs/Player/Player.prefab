@@ -206,7 +206,7 @@ GameObject:
   - component: {fileID: 4571804787564189824}
   - component: {fileID: 4571804787564189825}
   m_Layer: 0
-  m_Name: Camera
+  m_Name: P_Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -286,7 +286,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7058181527774301473, guid: 04ea460011165f94592452d2d740b2a5, type: 3}
       propertyPath: m_Name
-      value: PlayerSprite
+      value: P_Sprite
       objectReference: {fileID: 0}
     - target: {fileID: 7058181527774301484, guid: 04ea460011165f94592452d2d740b2a5, type: 3}
       propertyPath: m_RootOrder
@@ -367,7 +367,11 @@ PrefabInstance:
       objectReference: {fileID: 3890200532193581317}
     - target: {fileID: 6011155805056623569, guid: bdf334b75e777d5448ef4105724cf043, type: 3}
       propertyPath: m_Name
-      value: Weapon
+      value: P_Weapon
+      objectReference: {fileID: 0}
+    - target: {fileID: 6455778207424155213, guid: bdf334b75e777d5448ef4105724cf043, type: 3}
+      propertyPath: m_Name
+      value: P_Muzzle
       objectReference: {fileID: 0}
     - target: {fileID: 7879557930835718281, guid: bdf334b75e777d5448ef4105724cf043, type: 3}
       propertyPath: m_RootOrder
@@ -412,6 +416,10 @@ PrefabInstance:
     - target: {fileID: 7879557930835718281, guid: bdf334b75e777d5448ef4105724cf043, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7987545569177982810, guid: bdf334b75e777d5448ef4105724cf043, type: 3}
+      propertyPath: m_Name
+      value: P_WeaponSprite
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bdf334b75e777d5448ef4105724cf043, type: 3}

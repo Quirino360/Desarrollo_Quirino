@@ -33,7 +33,7 @@ public class Weapon : MonoBehaviour
 
     void Start()
     {
-        weaponSprite = GameObject.Find("WeaponSprite");
+        weaponSprite = GameObject.FindWithTag("WeaponSprite");
     }
 
     
@@ -60,7 +60,7 @@ public class Weapon : MonoBehaviour
 
     public void Shoot(Vector3 _dir)
     {
-        bulletScript.InstatiateBullet(weaponSprite.transform.position, weaponObj.transform.rotation, _dir * shotSpeed );
+        bulletScript.InstatiateBullet(Muzzle.transform.position, weaponObj.transform.rotation, _dir * shotSpeed );
     }
 
     

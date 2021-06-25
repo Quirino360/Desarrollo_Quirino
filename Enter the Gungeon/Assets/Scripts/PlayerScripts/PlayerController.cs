@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rigidBody;
     private Camera Plyrcamera;
     private GameObject playerSprite;
+    
 
     //Movement
     [SerializeField] private float speedMax = 10.0f;
@@ -45,7 +46,10 @@ public class PlayerController : MonoBehaviour
         //Game Objects
         rigidBody = GetComponent<Rigidbody2D>();
         Plyrcamera = GetComponentInChildren<Camera>();
-        playerSprite = transform.Find("PlayerSprite").gameObject;
+        playerSprite = GameObject.FindGameObjectWithTag("WeaponSprite");
+        //playerSprite = transform.Find("PlayerSprite").gameObject;
+
+
     }
 
     private void Start()
