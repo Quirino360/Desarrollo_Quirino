@@ -64,6 +64,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EnemyWeaponScript: {fileID: 7547478615089573215}
+  playerControllerScript: {fileID: 4571804787295549992, guid: c7bb53c9384341045b873455e55f5f8a, type: 3}
   thisObj: {fileID: 6710371614028323457}
 --- !u!50 &5337951045418853245
 Rigidbody2D:

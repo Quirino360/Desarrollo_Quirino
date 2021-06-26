@@ -9,9 +9,11 @@ public class PlayerController : MonoBehaviour
     private PlayerInputActions playerInput;
     public Weapon PlyrWeaponScript;
 
-
     //Game Objects
     private Rigidbody2D rigidBody;
+    public Rigidbody2D rigid_body { get { return rigidBody; } }
+    public GameObject thisObj;
+
     private Camera Plyrcamera;
     private GameObject playerSprite;
     
@@ -30,13 +32,16 @@ public class PlayerController : MonoBehaviour
     private float dashCooldownMax = 0.8f;
 
     //Shoot
+    private float angle = 0;
+    private Vector3 directionVector;
 
 
     //Mouse position 
-    float angle = 0;
-    Vector3 directionVector;
-
     Vector3 mousePos;
+
+    //Player Color
+    Renderer CubeRenderer;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -46,14 +51,17 @@ public class PlayerController : MonoBehaviour
         //Game Objects
         rigidBody = GetComponent<Rigidbody2D>();
         Plyrcamera = GetComponentInChildren<Camera>();
-        playerSprite = GameObject.FindGameObjectWithTag("WeaponSprite");
-        //playerSprite = transform.Find("PlayerSprite").gameObject;
+        //playerSprite = GameObject.FindGameObjectWithTag("WeaponSprite");
+        playerSprite = transform.Find("P_Sprite").gameObject;
 
 
     }
 
     private void Start()
     {
+        //player color
+        CubeRenderer = playerSprite.GetComponent<Renderer>();
+
         speed = speedMax;
     }
 
@@ -75,16 +83,18 @@ public class PlayerController : MonoBehaviour
 
 
         //check for dash cooldown and restart the variables
-        if (dashCooldown > 0.0f)
+        if (  dashCooldown > 0.0f)
         {
-            var CubeRenderer = playerSprite.GetComponent<Renderer>();
+            // set player sprite red
             CubeRenderer.material.SetColor("_Color", Color.red);
+            
             dashCooldown -= Time.deltaTime;
         }
-        else
+        else if (dashCooldown <= 0.0f && canDash == false)
         {
-            var CubeRenderer = playerSprite.GetComponent<Renderer>();
+            // set player sprite to normal
             CubeRenderer.material.SetColor("_Color", Color.white);
+
             //set cooldown to use variables
             canMove = true;
             canDash = true;
@@ -93,6 +103,8 @@ public class PlayerController : MonoBehaviour
             //set not insible 
             invincible = false;
             dashCooldown = 0.0f;
+
+            Debug.Log("Is in here");
         }
 
         //Debug.Log(PauseMenu.isPaused);
@@ -147,6 +159,9 @@ public class PlayerController : MonoBehaviour
 
             //set invisible
             invincible = true;
+
+
+
 
             //Debug.Log("Dash");
         }

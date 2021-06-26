@@ -27,7 +27,7 @@ public class GamePlayer : MonoBehaviour
         {
             Destroy(collision.gameObject);
             health--;
-            Debug.Log("Player hited = " + health);
+            //Debug.Log("Player hited = " + health);
         }
     }
 }

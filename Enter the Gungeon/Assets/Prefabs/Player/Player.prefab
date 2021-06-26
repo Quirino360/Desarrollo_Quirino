@@ -176,6 +176,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlyrWeaponScript: {fileID: 5983364429117687952}
+  thisObj: {fileID: 4571804787295549994}
   speedMax: 10
   speed: 5
   dashSpeed: 1.2
