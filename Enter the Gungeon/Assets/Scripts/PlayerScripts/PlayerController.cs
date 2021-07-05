@@ -7,15 +7,14 @@ public class PlayerController : MonoBehaviour
 {
     //Scripts that I need
     private PlayerInputActions playerInput;
-    public Weapon PlyrWeaponScript;
+    private Weapon PlyrWeaponScript;
 
     //Game Objects
-    private Rigidbody2D rigidBody;
-    public Rigidbody2D rigid_body { get { return rigidBody; } }
     public GameObject thisObj;
-
+    private Rigidbody2D rigidBody;
     private Camera Plyrcamera;
     private GameObject playerSprite;
+    public Rigidbody2D rigid_body { get { return rigidBody; } }
     
 
     //Movement
@@ -47,6 +46,7 @@ public class PlayerController : MonoBehaviour
     {
        //scripts
         playerInput = new PlayerInputActions();
+        PlyrWeaponScript = this.GetComponentInChildren<Weapon>();
 
         //Game Objects
         rigidBody = GetComponent<Rigidbody2D>();

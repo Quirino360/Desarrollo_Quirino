@@ -37,7 +37,7 @@ public class GameBullet : MonoBehaviour
 
     private void Move()
     {
-        thisObj.transform.position += bulletDirection * Time.deltaTime;
+        thisObj.transform.position += bulletDirection * Time.fixedDeltaTime;
     }
 
 }

@@ -27,7 +27,7 @@ public class EnemyBehavior : MonoBehaviour
 {
 
     //Scripts that I need
-    public Weapon EnemyWeaponScript;
+    private Weapon EnemyWeaponScript;
     private PlayerController playerControllerScript;
     //rigidbody.Velocity
 
@@ -37,8 +37,8 @@ public class EnemyBehavior : MonoBehaviour
 
     //Steering Behavior
     private Vector3 velocity, desiredVelocity, steering; //used in seek, flee
-    private BEHAVIOR behavior = BEHAVIOR.IDDLE;
-    private float health = 3.0f;
+    [SerializeField] private BEHAVIOR behavior = BEHAVIOR.IDDLE;
+    [SerializeField] private float health = 3.0f;
     private float maxVelocity = 2.0f;
     private float maxSpeed = 2.0f;
     private float maxForce = 1.0f;
@@ -64,9 +64,11 @@ public class EnemyBehavior : MonoBehaviour
     void Start()
     {
         behavior = BEHAVIOR.PERSUIT;
+        
+        EnemyWeaponScript = thisObj.GetComponentInChildren<Weapon>();
+
         playerObj = GameObject.FindGameObjectWithTag("Player");
         playerControllerScript = playerObj.GetComponent<PlayerController>();
-        //thisObj = transform.Find("Enemy").gameObject;
     }
 
     // Update is called once per frame
@@ -82,7 +84,6 @@ public class EnemyBehavior : MonoBehaviour
     private void FixedUpdate()
     {
        
-
         Vector3 lastDirection = directionVector;
         directionVector = new Vector3(playerObj.transform.position.x - thisObj.transform.position.x, playerObj.transform.position.y - thisObj.transform.position.y, 0);
         directionVector.Normalize();
@@ -102,7 +103,7 @@ public class EnemyBehavior : MonoBehaviour
         }
 
         UpdateMovement(thisObj.transform.position, playerControllerScript.rigid_body.velocity, playerControllerScript.thisObj.transform.position);
-        thisObj.transform.position += GetVelocity() * Time.deltaTime; 
+        thisObj.transform.position += GetVelocity() * Time.fixedDeltaTime; 
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -113,8 +114,6 @@ public class EnemyBehavior : MonoBehaviour
             //Debug.Log("Enemy life = " + health);
         }
     }
-
-
 
 
 

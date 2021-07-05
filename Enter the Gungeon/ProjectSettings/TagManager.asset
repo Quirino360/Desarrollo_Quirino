@@ -9,6 +9,9 @@ TagManager:
   - Enemy
   - Sprite
   - WeaponSprite
+  - SpawnPoint
+  - Rooms
+  - Room
   layers:
   - Default
   - TransparentFX
