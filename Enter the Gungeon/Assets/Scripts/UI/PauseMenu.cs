@@ -52,6 +52,7 @@ public class PauseMenu : MonoBehaviour
     public void GoToMainMenu()
     {
         Time.timeScale = 1.0f; //resumes the engine clock
+        isPaused = false;
         SceneManager.LoadScene("MainMenu");
     }
 

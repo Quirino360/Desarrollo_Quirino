@@ -12,6 +12,10 @@ TagManager:
   - SpawnPoint
   - Rooms
   - Room
+  - GameManager
+  - Store
+  - StoreItems
+  - StoreWeapons
   layers:
   - Default
   - TransparentFX

@@ -1,0 +1,2292 @@
+fileFormatVersion: 2
+guid: 57c02103c62de9444b04bdecf9d54bb0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6259270911630597413
+    second: NA00
+  - first:
+      213: -6421548619766828921
+    second: NA01
+  - first:
+      213: 5759564138891065353
+    second: NA02
+  - first:
+      213: -9074090824919406176
+    second: NA03
+  - first:
+      213: -8866860801983270648
+    second: NA04
+  - first:
+      213: -4773176994253697746
+    second: NA05
+  - first:
+      213: 7236866526325376330
+    second: NA0
+  - first:
+      213: 7502636375431397670
+    second: Walk_Down_00
+  - first:
+      213: -3019269785717647518
+    second: Walk_Down_01
+  - first:
+      213: 2009537746231721582
+    second: Walk_Down_02
+  - first:
+      213: 3186025200667703183
+    second: Walk_Down_03
+  - first:
+      213: -6493519059207731216
+    second: Walk_Right_00
+  - first:
+      213: 5396437510694421309
+    second: Walk_Right_01
+  - first:
+      213: 2266354037897608706
+    second: Walk_Left_00
+  - first:
+      213: -5215867249966420172
+    second: Walk_Left_01
+  - first:
+      213: -7977544505660763593
+    second: SSTopDown_29
+  - first:
+      213: 1054634174011232667
+    second: SSTopDown_30
+  - first:
+      213: -9064771921197945846
+    second: SSTopDown_31
+  - first:
+      213: -59332298859562326
+    second: SSTopDown_32
+  - first:
+      213: 3499066230865901123
+    second: SSTopDown_33
+  - first:
+      213: -68520788646201763
+    second: SSTopDown_34
+  - first:
+      213: 6482629013798390077
+    second: SSTopDown_35
+  - first:
+      213: 4747768181581638271
+    second: SSTopDown_36
+  - first:
+      213: 2139986303114005345
+    second: Walk_Up_00
+  - first:
+      213: 1251022273770276439
+    second: Walk_Up_01
+  - first:
+      213: -1191706077274578974
+    second: Walk_Up_02
+  - first:
+      213: 2016797172890444314
+    second: Walk_Up_03
+  - first:
+      213: 3994017655160142374
+    second: Idle_00
+  - first:
+      213: 837749551557274186
+    second: Idle_01
+  - first:
+      213: 2277370032083563947
+    second: Idle_02
+  - first:
+      213: 5933757505296784989
+    second: Idle_03
+  - first:
+      213: 3567860379438718160
+    second: Idle_04
+  - first:
+      213: 3366829677804282829
+    second: Idle_05
+  - first:
+      213: -6062535256274294475
+    second: Idle_06
+  - first:
+      213: -7478601880041490672
+    second: SSTopDown_69
+  - first:
+      213: -4019129448226357973
+    second: SSTopDown_70
+  - first:
+      213: -7778105613335716731
+    second: SSTopDown_71
+  - first:
+      213: 6333502581945143338
+    second: SSTopDown_72
+  - first:
+      213: 4052848458439945515
+    second: SSTopDown_73
+  - first:
+      213: 354293219838264652
+    second: SSTopDown_74
+  - first:
+      213: -7930990048848115561
+    second: SSTopDown_75
+  - first:
+      213: 2995361137734257868
+    second: SSTopDown_76
+  - first:
+      213: 658891235158681131
+    second: SSTopDown_115
+  - first:
+      213: -4629092307869689497
+    second: SSTopDown_116
+  - first:
+      213: -8407038480541718016
+    second: SSTopDown_117
+  - first:
+      213: -4022532077443353975
+    second: SSTopDown_118
+  - first:
+      213: 3676312065816112484
+    second: SSTopDown_119
+  - first:
+      213: 1113318844391989301
+    second: SSTopDown_120
+  - first:
+      213: -2723326292606109934
+    second: SSTopDown_121
+  - first:
+      213: -943047652090811271
+    second: SSTopDown_146
+  - first:
+      213: 8216945168116533384
+    second: SSTopDown_147
+  - first:
+      213: -1416323583673049681
+    second: SSTopDown_148
+  - first:
+      213: -4475686524020724200
+    second: SSTopDown_149
+  - first:
+      213: -1011038152257701498
+    second: SSTopDown_150
+  - first:
+      213: 6781412436220273031
+    second: SSTopDown_151
+  - first:
+      213: 5140746878759056052
+    second: SSTopDown_152
+  - first:
+      213: 4806709997349742456
+    second: SSTopDown_153
+  - first:
+      213: 1102232010664971928
+    second: SSTopDown_154
+  - first:
+      213: 3370617925953305057
+    second: SSTopDown_155
+  - first:
+      213: -7040987091198916452
+    second: SSTopDown_156
+  - first:
+      213: -5102194274125212568
+    second: SSTopDown_157
+  - first:
+      213: -2578373675717080413
+    second: SSTopDown_186
+  - first:
+      213: -7071859426354353734
+    second: SSTopDown_187
+  - first:
+      213: -2954924178442092755
+    second: SSTopDown_188
+  - first:
+      213: -3514170670542180430
+    second: SSTopDown_189
+  - first:
+      213: 3316888366662597085
+    second: SSTopDown_190
+  - first:
+      213: -6960925742586141865
+    second: SSTopDown_191
+  - first:
+      213: 7329993630333321680
+    second: SSTopDown_192
+  - first:
+      213: 5660256392173530276
+    second: SSTopDown_193
+  - first:
+      213: 2035394056695693752
+    second: SSTopDown_194
+  - first:
+      213: 4082439877183455086
+    second: SSTopDown_195
+  - first:
+      213: -1738687579310534415
+    second: SSTopDown_196
+  - first:
+      213: 538787819701151328
+    second: SSTopDown_197
+  - first:
+      213: -3859452487596350345
+    second: SSTopDown_198
+  - first:
+      213: -1668590839584235546
+    second: SSTopDown_199
+  - first:
+      213: 8201815521355405214
+    second: SSTopDown_200
+  - first:
+      213: 8895258963936173775
+    second: SSTopDown_201
+  - first:
+      213: 7449629763961711917
+    second: SSTopDown_202
+  - first:
+      213: 6947658152348681568
+    second: SSTopDown_203
+  - first:
+      213: -6419099252124565244
+    second: SSTopDown_204
+  - first:
+      213: 5965398593375105230
+    second: SSTopDown_241
+  - first:
+      213: 4462729998643233875
+    second: SSTopDown_242
+  - first:
+      213: 2369056267665302490
+    second: SSTopDown_243
+  - first:
+      213: -4493312837272667663
+    second: SSTopDown_244
+  - first:
+      213: 5059483001375519322
+    second: SSTopDown_245
+  - first:
+      213: -8371454805497115807
+    second: SSTopDown_246
+  - first:
+      213: -515650498555196700
+    second: SSTopDown_263
+  - first:
+      213: -7573761808235322783
+    second: SSTopDown_264
+  - first:
+      213: -8060930068851591133
+    second: SSTopDown_265
+  - first:
+      213: -5375327482257964436
+    second: SSTopDown_284
+  - first:
+      213: -967292379023167273
+    second: SSTopDown_285
+  - first:
+      213: -8740869903285264728
+    second: SSTopDown_286
+  - first:
+      213: 4597380941558561750
+    second: SSTopDown_287
+  - first:
+      213: 8802301402850700279
+    second: SSTopDown_288
+  - first:
+      213: 40513039110776286
+    second: SSTopDown_289
+  - first:
+      213: 9181641062450930580
+    second: SSTopDown_290
+  - first:
+      213: -4080317458600123865
+    second: SSTopDown_291
+  - first:
+      213: -3634466083154039744
+    second: SSTopDown_292
+  - first:
+      213: -8677464579386612431
+    second: SSTopDown_293
+  - first:
+      213: -3924115338999255670
+    second: SSTopDown_294
+  - first:
+      213: -3027254659653303693
+    second: SSTopDown_295
+  - first:
+      213: -6283212990175035647
+    second: SSTopDown_296
+  - first:
+      213: -3671190014073997293
+    second: SSTopDown_297
+  - first:
+      213: -5785585230496741921
+    second: SSTopDown_298
+  - first:
+      213: -1928897609605734134
+    second: SSTopDown_0
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Walk_Down_00
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 835
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62143846808be1860800000000000000
+      internalID: 7502636375431397670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Down_01
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 835
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267da3d60266916d0800000000000000
+      internalID: -3019269785717647518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Down_02
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 835
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e71e6eeef43eb10800000000000000
+      internalID: 2009537746231721582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Down_03
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 835
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f87bd3b2a09073c20800000000000000
+      internalID: 3186025200667703183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Right_00
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 835
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7c1bdd1d262e5a0800000000000000
+      internalID: -6493519059207731216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Right_01
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 835
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33c88d035ff3ea40800000000000000
+      internalID: 5396437510694421309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Left_00
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 835
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20eb8246df4b37f10800000000000000
+      internalID: 2266354037897608706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Left_01
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 835
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f682afe548d97b0800000000000000
+      internalID: -5215867249966420172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Up_00
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 734
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16bcf4d5432c2bd10800000000000000
+      internalID: 2139986303114005345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Up_01
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 734
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 756cd2a31268c5110800000000000000
+      internalID: 1251022273770276439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Up_02
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 734
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2efdf5bf2a5367fe0800000000000000
+      internalID: -1191706077274578974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Up_03
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 734
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a12a522e75a1dfb10800000000000000
+      internalID: 2016797172890444314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_00
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 668
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a757a65e99d6730800000000000000
+      internalID: 3994017655160142374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_01
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 668
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a605f47c840ab00800000000000000
+      internalID: 837749551557274186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_02
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 668
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5f5786af7da9f10800000000000000
+      internalID: 2277370032083563947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_03
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 668
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ed58e3301f85250800000000000000
+      internalID: 5933757505296784989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_04
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 668
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc92ac9c16938130800000000000000
+      internalID: 3567860379438718160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_05
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 668
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc364c4f0c169be20800000000000000
+      internalID: 3366829677804282829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_06
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 668
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5392d7b1e4c8ddba0800000000000000
+      internalID: -6062535256274294475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_69
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 590
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017fe83a63ba63890800000000000000
+      internalID: -7478601880041490672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_70
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 590
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2df724af0f2938c0800000000000000
+      internalID: -4019129448226357973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_71
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 590
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c17a3a72e9e0490800000000000000
+      internalID: -7778105613335716731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_72
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 590
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a201cdcba0f15e750800000000000000
+      internalID: 6333502581945143338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_73
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 590
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d6dc5333c9e3830800000000000000
+      internalID: 4052848458439945515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_74
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 590
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c450aca6ec3bae400800000000000000
+      internalID: 354293219838264652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_75
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 590
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798004d12967fe190800000000000000
+      internalID: -7930990048848115561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_76
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 590
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc09aca519a19920800000000000000
+      internalID: 2995361137734257868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_115
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 512
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b266041661ad42900800000000000000
+      internalID: 658891235158681131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_116
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 512
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7691fec621922cfb0800000000000000
+      internalID: -4629092307869689497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_117
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 512
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a654a5b03345b80800000000000000
+      internalID: -8407038480541718016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_118
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 512
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982ff5a43681d28c0800000000000000
+      internalID: -4022532077443353975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_119
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 512
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46da37e8852e40330800000000000000
+      internalID: 3676312065816112484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_120
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 512
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530abb1279d437f00800000000000000
+      internalID: 1113318844391989301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_121
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 512
+        width: 34
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2173bb96a2dc43ad0800000000000000
+      internalID: -2723326292606109934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_146
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 434
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c6cda282f99e2f0800000000000000
+      internalID: -943047652090811271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_147
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 434
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888c27c5814780270800000000000000
+      internalID: 8216945168116533384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_148
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 434
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fadd8246435385ce0800000000000000
+      internalID: -1416323583673049681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_149
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 434
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81eedb1d1da23e1c0800000000000000
+      internalID: -4475686524020724200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_150
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 434
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689ff40482218f1f0800000000000000
+      internalID: -1011038152257701498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_151
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 434
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78163586eaa6c1e50800000000000000
+      internalID: 6781412436220273031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_152
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 434
+        width: 41
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2b1a4ac0a975740800000000000000
+      internalID: 5140746878759056052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_153
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 434
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877a95a864dd4b240800000000000000
+      internalID: 4806709997349742456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_154
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 458
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e00cf7c2aeb4f00800000000000000
+      internalID: 1102232010664971928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_155
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 434
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9b2063527d6ce20800000000000000
+      internalID: 3370617925953305057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_156
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 449
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c984af89b83694e90800000000000000
+      internalID: -7040987091198916452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_157
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 445
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8641cbb175d5139b0800000000000000
+      internalID: -5102194274125212568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_186
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 356
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa4aa08dc6c73cd0800000000000000
+      internalID: -2578373675717080413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_187
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 356
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9a6aee155bbdd90800000000000000
+      internalID: -7071859426354353734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_188
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 356
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ffeb59d100ef6d0800000000000000
+      internalID: -2954924178442092755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_189
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 355
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfac3ed4682b3fc0800000000000000
+      internalID: -3514170670542180430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_190
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 355
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9bc865564f70e20800000000000000
+      internalID: 3316888366662597085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_191
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 355
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753e74deae2d56f90800000000000000
+      internalID: -6960925742586141865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_192
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 355
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1c4edee5e59b560800000000000000
+      internalID: 7329993630333321680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_193
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 355
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac232903354d8e40800000000000000
+      internalID: 5660256392173530276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_194
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 355
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1c94f4c1c2f3c10800000000000000
+      internalID: 2035394056695693752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_195
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 304
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6fb868407db7a830800000000000000
+      internalID: 4082439877183455086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_196
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 304
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0dfcbcbd0fed7e0800000000000000
+      internalID: -1738687579310534415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_197
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 304
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066289adaa82a7700800000000000000
+      internalID: 538787819701151328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_198
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 304
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77462592968707ac0800000000000000
+      internalID: -3859452487596350345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_199
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 304
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ef5c13d879f7d8e0800000000000000
+      internalID: -1668590839584235546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_200
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 304
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e979ca7f2c3b2d170800000000000000
+      internalID: 8201815521355405214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_201
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 306
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce568a06ee427b70800000000000000
+      internalID: 8895258963936173775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_202
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 304
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d6d1decc6626760800000000000000
+      internalID: 7449629763961711917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_203
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 304
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065079f774a0b6060800000000000000
+      internalID: 6947658152348681568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_204
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 304
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 401c3237d37cae6a0800000000000000
+      internalID: -6419099252124565244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_241
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 226
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0fcb52a6a59c250800000000000000
+      internalID: 5965398593375105230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_242
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 226
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3540c990a4dceed30800000000000000
+      internalID: 4462729998643233875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_243
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 226
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad36a17af1490e020800000000000000
+      internalID: 2369056267665302490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_244
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 226
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9f8a5f7cb84a1c0800000000000000
+      internalID: -4493312837272667663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_245
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 226
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a527d14cbf4e63640800000000000000
+      internalID: 5059483001375519322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_246
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 228
+        width: 43
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b8b11553e92db80800000000000000
+      internalID: -8371454805497115807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_263
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 148
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea4d558a9a08d8f0800000000000000
+      internalID: -515650498555196700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_264
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 148
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162a6be43c794e690800000000000000
+      internalID: -7573761808235322783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_265
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 148
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328f5de9fc2d12090800000000000000
+      internalID: -8060930068851591133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_284
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 70
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c628e9472200765b0800000000000000
+      internalID: -5375327482257964436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_285
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 70
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0b16ac4bc7392f0800000000000000
+      internalID: -967292379023167273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_286
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 70
+        width: 23
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae57c2522132b680800000000000000
+      internalID: -8740869903285264728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_287
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 70
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbbfbebb9d2dcf30800000000000000
+      internalID: 4597380941558561750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_288
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 70
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fba6d24d7e082a70800000000000000
+      internalID: 8802301402850700279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_289
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 70
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed528f8f46eef8000800000000000000
+      internalID: 40513039110776286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_290
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 70
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493278e56edbb6f70800000000000000
+      internalID: 9181641062450930580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_291
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 70
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722a05dc3eccf57c0800000000000000
+      internalID: -4080317458600123865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_292
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 70
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ce5658a58cf8dc0800000000000000
+      internalID: -3634466083154039744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_293
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 22
+        width: 25
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13560a2b0f3739780800000000000000
+      internalID: -8677464579386612431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_294
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 22
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8da949d3edba89c0800000000000000
+      internalID: -3924115338999255670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_295
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 22
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37208b61de70df5d0800000000000000
+      internalID: -3027254659653303693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_296
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 22
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f3f78431b8dc8a0800000000000000
+      internalID: -6283212990175035647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_297
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 22
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318782c02205d0dc0800000000000000
+      internalID: -3671190014073997293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SSTopDown_298
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 22
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5ce7ed2e875bfa0800000000000000
+      internalID: -5785585230496741921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

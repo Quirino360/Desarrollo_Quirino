@@ -6,8 +6,6 @@ public class GameBullet : MonoBehaviour
 {
 
     //Scripts I need 
-
-
     //Game Objects
     public GameObject thisObj;
 

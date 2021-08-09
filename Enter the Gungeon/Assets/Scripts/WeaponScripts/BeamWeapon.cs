@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class BeamWeapon : Weapon
 {
     // Start is called before the first frame update
     void Start()
@@ -15,4 +15,10 @@ public class NewBehaviourScript : MonoBehaviour
     {
         
     }
+
+    public override void Shoot(Vector3 _dir)
+    {
+        bulletScript.InstatiateBullet(Muzzle.transform.position, weaponObj.transform.rotation, _dir * shotSpeed);
+    }
 }
+

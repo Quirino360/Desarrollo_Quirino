@@ -10,23 +10,23 @@ public class Weapon : MonoBehaviour
 
     //Game Objects
     public GameObject weaponObj;
-    public GameObject Muzzle;
+    protected GameObject Muzzle;
     private GameObject weaponSprite;
 
-
+    private uint price = 0;
 
     // Weapon In Game Variables
-    [SerializeField] private string weaponName = "Default";
-    [SerializeField] private string Quality = "D";
-    [SerializeField] private float DPS = 10.0f;
-    [SerializeField] private int magazineSize = 10;
-    [SerializeField] private int AmmoCapacity = 10;
-    [SerializeField] private float Damage = 10.0f;
-    [SerializeField] private float FireRate = 10.0f;
-    [SerializeField] private float shotSpeed = 10.0f;
-    [SerializeField] private int Range = 10;
-    [SerializeField] private int Force = 10;
-    [SerializeField] private int Spread = 10;
+    [SerializeField] protected string weaponName = "Default";
+    [SerializeField] protected string Quality = "D";
+    [SerializeField] protected float DPS = 10.0f;
+    [SerializeField] protected int magazineSize = 10;
+    [SerializeField] protected int AmmoCapacity = 10;
+    [SerializeField] protected float Damage = 10.0f;
+    [SerializeField] protected float FireRate = 10.0f;
+    [SerializeField] protected float shotSpeed = 10.0f;
+    [SerializeField] protected int Range = 10;
+    [SerializeField] protected int Force = 10;
+    [SerializeField] protected int Spread = 10;
 
     // Variables
 
@@ -34,6 +34,8 @@ public class Weapon : MonoBehaviour
     void Start()
     {
         weaponSprite = GameObject.FindWithTag("WeaponSprite");
+        Muzzle = transform.Find("P_Muzzle").gameObject;
+
     }
 
     
@@ -42,7 +44,7 @@ public class Weapon : MonoBehaviour
         
     }
 
-    public void ChangeWeaponRotation(Vector3 _dir, float _angle)
+    public virtual void ChangeWeaponRotation(Vector3 _dir, float _angle)
     {
         //Debug.Log(_dir.y);
         if(_dir.y <= 1.0f && _dir.y >= -1.0f)
@@ -58,7 +60,7 @@ public class Weapon : MonoBehaviour
         /**/
     }
 
-    public void Shoot(Vector3 _dir)
+    public virtual void Shoot(Vector3 _dir)
     {
         bulletScript.InstatiateBullet(Muzzle.transform.position, weaponObj.transform.rotation, _dir * shotSpeed );
     }

@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Iddle_Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 2
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 3994017655160142374, guid: 57c02103c62de9444b04bdecf9d54bb0, type: 3}
+    - {fileID: 837749551557274186, guid: 57c02103c62de9444b04bdecf9d54bb0, type: 3}
+    - {fileID: 2277370032083563947, guid: 57c02103c62de9444b04bdecf9d54bb0, type: 3}
+    - {fileID: 5933757505296784989, guid: 57c02103c62de9444b04bdecf9d54bb0, type: 3}
+    - {fileID: 3567860379438718160, guid: 57c02103c62de9444b04bdecf9d54bb0, type: 3}
+    - {fileID: 3366829677804282829, guid: 57c02103c62de9444b04bdecf9d54bb0, type: 3}
+    - {fileID: -6062535256274294475, guid: 57c02103c62de9444b04bdecf9d54bb0, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 3567860379438718160, guid: 57c02103c62de9444b04bdecf9d54bb0, type: 3}
+  - {fileID: 3366829677804282829, guid: 57c02103c62de9444b04bdecf9d54bb0, type: 3}
+  - {fileID: -6062535256274294475, guid: 57c02103c62de9444b04bdecf9d54bb0, type: 3}
+  - {fileID: 3994017655160142374, guid: 57c02103c62de9444b04bdecf9d54bb0, type: 3}
+  - {fileID: 837749551557274186, guid: 57c02103c62de9444b04bdecf9d54bb0, type: 3}
+  - {fileID: 2277370032083563947, guid: 57c02103c62de9444b04bdecf9d54bb0, type: 3}
+  - {fileID: 5933757505296784989, guid: 57c02103c62de9444b04bdecf9d54bb0, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Idle_04
+  - Idle_05
+  - Idle_06
+  - Idle_00
+  - Idle_01
+  - Idle_02
+  - Idle_03
+  m_RenderDataMap: {}
+  m_Tag: Iddle_Atlas
+  m_IsVariant: 0

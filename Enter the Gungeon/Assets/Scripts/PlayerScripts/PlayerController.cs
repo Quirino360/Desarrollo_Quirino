@@ -14,12 +14,12 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rigidBody;
     private Camera Plyrcamera;
     private GameObject playerSprite;
+    private Animator animator;
     public Rigidbody2D rigid_body { get { return rigidBody; } }
     
 
     //Movement
-    [SerializeField] private float speedMax = 10.0f;
-    [SerializeField] private float speed = 0.0f;
+    [SerializeField] private float speed = 300.0f;
 
     //Dash
     [SerializeField] private float dashSpeed = 1.5f;
@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
     Vector3 mousePos;
 
     //Player Color
-    Renderer CubeRenderer;
+    public Renderer CubeRenderer;
 
     // Start is called before the first frame update
     void Awake()
@@ -48,21 +48,22 @@ public class PlayerController : MonoBehaviour
         playerInput = new PlayerInputActions();
         PlyrWeaponScript = this.GetComponentInChildren<Weapon>();
 
+        //PlyrWeaponScript = new AutomaticWeapon();
+
         //Game Objects
         rigidBody = GetComponent<Rigidbody2D>();
         Plyrcamera = GetComponentInChildren<Camera>();
         //playerSprite = GameObject.FindGameObjectWithTag("WeaponSprite");
         playerSprite = transform.Find("P_Sprite").gameObject;
-
+        animator = GetComponent<Animator>();
 
     }
 
     private void Start()
     {
         //player color
-        CubeRenderer = playerSprite.GetComponent<Renderer>();
+        CubeRenderer = thisObj.GetComponent<Renderer>();
 
-        speed = speedMax;
     }
 
     private void OnEnable()
@@ -104,8 +105,16 @@ public class PlayerController : MonoBehaviour
             invincible = false;
             dashCooldown = 0.0f;
 
-            Debug.Log("Is in here");
+            //Debug.Log("Is in here");
         }
+
+        //Animation
+        animator.SetFloat("Horizontal", directionVector.x);
+        animator.SetFloat("Vertical", directionVector.y);
+        if (rigidBody.velocity.x == 0 && rigidBody.velocity.y == 0)
+            animator.SetFloat("Speed", 0);
+        else
+            animator.SetFloat("Speed", speed);
 
         //Debug.Log(PauseMenu.isPaused);
     }
@@ -126,7 +135,6 @@ public class PlayerController : MonoBehaviour
             PlyrWeaponScript.ChangeWeaponRotation(directionVector, angle);
             
         }
-
         //Debug.Log(directionVector);
     }
 
@@ -137,7 +145,8 @@ public class PlayerController : MonoBehaviour
         if (true == canMove && false == PauseMenu.isPaused)
         {
             Vector2 moveInput = playerInput.Movement.Move.ReadValue<Vector2>();
-            rigidBody.velocity = moveInput * speed;
+            rigidBody.velocity = moveInput * speed * Time.fixedDeltaTime;
+            
             //Debug.Log(moveInput * speed);
         }
     }
@@ -147,7 +156,7 @@ public class PlayerController : MonoBehaviour
         {
             //dash speed
             Vector2 moveInput = playerInput.Movement.Move.ReadValue<Vector2>();
-            rigidBody.velocity = moveInput * speed * dashSpeed ;
+            rigidBody.velocity = moveInput * speed * dashSpeed * Time.fixedDeltaTime;
 
             //set cooldown
             dashCooldown = dashCooldownMax;

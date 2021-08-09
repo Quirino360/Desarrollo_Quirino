@@ -24,7 +24,7 @@ public class MainMenu : MonoBehaviour
 
     public void StartGame()
     {
-        SceneManager.LoadScene("PracticeScene");
+        SceneManager.LoadScene("Base");
     }
 
     public void ExitGame()
