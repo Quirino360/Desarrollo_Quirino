@@ -21,4 +21,3 @@ public class ChargedWeapon : Weapon
         bulletScript.InstatiateBullet(Muzzle.transform.position, weaponObj.transform.rotation, _dir * shotSpeed);
     }
 }
-

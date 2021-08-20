@@ -66,7 +66,6 @@ public class EnemyBehavior : MonoBehaviour
         behavior = BEHAVIOR.PERSUIT;
         
         EnemyWeaponScript = thisObj.GetComponentInChildren<Weapon>();
-
         playerObj = GameObject.FindGameObjectWithTag("Player");
         playerControllerScript = playerObj.GetComponent<PlayerController>();
     }
@@ -326,28 +325,3 @@ public class EnemyBehavior : MonoBehaviour
     public void SetBehavior(BEHAVIOR _newBehavior) { behavior = _newBehavior; }
 
 }
-
-/*
- 
-
-
-
-
-class SteeringBehavior
-{
-public:
-
-
-private:
-
-	
-
-public:
-
-private:
-
-
-};
-
- 
- */

@@ -21,7 +21,7 @@ public class EnterGungeon : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene("PracticeScene");
+            SceneManager.LoadScene("Dungeon");
             Debug.Log("PlayerGungeon");
         }
     }

@@ -11,9 +11,10 @@ public class Weapon : MonoBehaviour
     //Game Objects
     public GameObject weaponObj;
     protected GameObject Muzzle;
-    private GameObject weaponSprite;
+    protected GameObject weaponSprite;
+    protected Sprite sprite;
 
-    private uint price = 0;
+    protected uint price = 0;
 
     // Weapon In Game Variables
     [SerializeField] protected string weaponName = "Default";
@@ -28,14 +29,11 @@ public class Weapon : MonoBehaviour
     [SerializeField] protected int Force = 10;
     [SerializeField] protected int Spread = 10;
 
-    // Variables
-
-
     void Start()
     {
-        weaponSprite = GameObject.FindWithTag("WeaponSprite");
-        Muzzle = transform.Find("P_Muzzle").gameObject;
-
+        weaponSprite = GameObject.FindWithTag("Weapon");
+        sprite = weaponSprite.GetComponent<SpriteRenderer>().sprite;
+        Muzzle = transform.Find("Muzzle").gameObject;
     }
 
     
@@ -65,5 +63,30 @@ public class Weapon : MonoBehaviour
         bulletScript.InstatiateBullet(Muzzle.transform.position, weaponObj.transform.rotation, _dir * shotSpeed );
     }
 
-    
+    public void SetNewWeapon(Weapon _weapon)
+    {
+        if (_weapon != null)
+        {
+            this.sprite = _weapon.sprite;
+            /*this.bulletScript = _weapon.bulletScript;
+
+            //this.weaponObj = _weapon.weaponObj;
+
+            this.Muzzle = _weapon.Muzzle;
+            this.weaponSprite = _weapon.weaponSprite;
+
+            this.weaponName = _weapon.weaponName;
+            this.Quality = _weapon.weaponName;
+            this.DPS = _weapon.DPS;
+            this.magazineSize = _weapon.magazineSize;
+            this.AmmoCapacity = _weapon.AmmoCapacity;
+            this.Damage = _weapon.Damage;
+            this.FireRate = _weapon.FireRate;
+            this.shotSpeed = _weapon.shotSpeed;
+            this.Range = _weapon.Range;
+            this.Force = _weapon.Force;
+            this.Spread = _weapon.Spread;/**/
+
+        }
+    }
 }

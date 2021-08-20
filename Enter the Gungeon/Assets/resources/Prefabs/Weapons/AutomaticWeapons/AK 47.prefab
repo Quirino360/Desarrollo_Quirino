@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 5211507817540385605}
   - component: {fileID: 4652339224595950602}
   m_Layer: 0
-  m_Name: ETG Weapons_0
-  m_TagString: Untagged
+  m_Name: Sprite
+  m_TagString: WeaponSprite
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27,7 +27,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 6178646595108565218}
   m_Father: {fileID: 6128076074691316397}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -72,7 +73,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2681569249712185127, guid: 59fb6723d2be7194e96217fce7da0a73, type: 3}
+  m_Sprite: {fileID: 6562140349459187212, guid: 59fb6723d2be7194e96217fce7da0a73, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -107,11 +108,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4522526728099565464}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.381, y: 0.13, z: 0}
+  m_LocalPosition: {x: 0.519, y: 0.03, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 6128076074691316397}
-  m_RootOrder: 1
+  m_Father: {fileID: 5211507817540385605}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5174918818831023589
 GameObject:
@@ -124,7 +125,7 @@ GameObject:
   - component: {fileID: 6128076074691316397}
   - component: {fileID: 2614910471515303870}
   m_Layer: 0
-  m_Name: AR
+  m_Name: AK 47
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -137,12 +138,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5174918818831023589}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0.9015521, w: 0.43267056}
+  m_LocalPosition: {x: 15.057926, y: -6.9006667, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5211507817540385605}
-  - {fileID: 6178646595108565218}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -167,7 +167,7 @@ MonoBehaviour:
   AmmoCapacity: 10
   Damage: 10
   FireRate: 10
-  shotSpeed: 20
+  shotSpeed: 5.5
   Range: 10
   Force: 10
   Spread: 10

@@ -5,14 +5,13 @@ using UnityEngine;
 public class AutomaticWeapon : Weapon
 {
 
-    private GameObject weaponSprite;
-
 
     // Start is called before the first frame update
     void Start()
     {
         weaponSprite = GameObject.FindWithTag("WeaponSprite");
-        Muzzle = transform.Find("Muzzle").gameObject;
+        sprite = weaponSprite.GetComponent<SpriteRenderer>().sprite;
+        Muzzle = weaponSprite.transform.Find("Muzzle").gameObject;
     }
 
     // Update is called once per frame

@@ -5,6 +5,21 @@ TextureImporter:
   - first:
       213: 2681569249712185127
     second: ETG Weapons_0
+  - first:
+      213: 5531832723725710447
+    second: ETG Weapons_1
+  - first:
+      213: -2879298531804125113
+    second: ETG Weapons_2
+  - first:
+      213: 6413577026220496860
+    second: ETG Weapons_3
+  - first:
+      213: 6562140349459187212
+    second: ETG Weapons_4
+  - first:
+      213: -2925668205047304810
+    second: ETG Weapons_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -97,12 +112,12 @@ TextureImporter:
       name: ETG Weapons_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 325
-        width: 195
-        height: 123
+        x: 32
+        y: 333
+        width: 170
+        height: 115
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -110,6 +125,111 @@ TextureImporter:
       bones: []
       spriteID: 72f94b96609d63520800000000000000
       internalID: 2681569249712185127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG Weapons_1
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 329
+        width: 170
+        height: 119
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f647d86ad8405cc40800000000000000
+      internalID: 5531832723725710447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG Weapons_2
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 191
+        width: 219
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 748e2819d3daa08d0800000000000000
+      internalID: -2879298531804125113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG Weapons_3
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 188
+        width: 322
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd79a73235a910950800000000000000
+      internalID: 6413577026220496860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG Weapons_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 265
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06c5cf41e7611b50800000000000000
+      internalID: 6562140349459187212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ETG Weapons_5
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 0
+        width: 314
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d2083b440f567d0800000000000000
+      internalID: -2925668205047304810
       vertices: []
       indices: 
       edges: []

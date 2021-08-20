@@ -11,10 +11,15 @@ public class PlayerController : MonoBehaviour
 
     //Game Objects
     public GameObject thisObj;
+    public GameObject currentWeapon;
+    private GameObject playerSprite;
+
+
     private Rigidbody2D rigidBody;
     private Camera Plyrcamera;
-    private GameObject playerSprite;
     private Animator animator;
+
+
     public Rigidbody2D rigid_body { get { return rigidBody; } }
     
 
@@ -40,22 +45,52 @@ public class PlayerController : MonoBehaviour
 
     //Player Color
     public Renderer CubeRenderer;
+    
+    //Inventory
+    public Weapon[] weaponInventory; //Player can carry all the weapons posible
+
+    public GameObject wAux;
 
     // Start is called before the first frame update
     void Awake()
     {
-       //scripts
+
+
+        //scripts
         playerInput = new PlayerInputActions();
         PlyrWeaponScript = this.GetComponentInChildren<Weapon>();
 
-        //PlyrWeaponScript = new AutomaticWeapon();
-
         //Game Objects
-        rigidBody = GetComponent<Rigidbody2D>();
+        /*foreach(GameObject go in objects)
+        {
+            if (go.tag == "Weapon")
+            {
+                currentWeapon = go;
+            }
+        }*/
+
         Plyrcamera = GetComponentInChildren<Camera>();
-        //playerSprite = GameObject.FindGameObjectWithTag("WeaponSprite");
-        playerSprite = transform.Find("P_Sprite").gameObject;
+        rigidBody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        playerSprite = transform.Find("P_Sprite").gameObject;
+
+        //Weapon
+        /*currentWeapon = transform.Find("Weapon").gameObject;
+
+        //Inventory
+        weaponInventory = new Weapon[0];
+        if (currentWeapon == null)
+        {
+            currentWeapon = Resources.Load("Prefabs/Weapons/AutomaticWeapons/Pistol", typeof(GameObject)) as GameObject;
+            PlyrWeaponScript = currentWeapon.GetComponent<Weapon>();
+        }
+        else
+        {
+            PlyrWeaponScript = currentWeapon.GetComponent<Weapon>();
+        }
+
+        //wAux = Resources.Load("Prefabs/Weapons/AutomaticWeapons/Minigun") as GameObject;/**/
+
 
     }
 
@@ -63,7 +98,6 @@ public class PlayerController : MonoBehaviour
     {
         //player color
         CubeRenderer = thisObj.GetComponent<Renderer>();
-
     }
 
     private void OnEnable()
